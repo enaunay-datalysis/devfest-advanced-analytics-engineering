@@ -1,0 +1,1 @@
+{"id": "str", "user_id": "int64", "call_date": "datetime64[ns]", "duration": "float64"}

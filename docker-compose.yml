@@ -1,0 +1,27 @@
+services:
+  source_db:
+    image: postgres:13
+    environment:
+      - POSTGRES_USER=root
+      - POSTGRES_PASSWORD=root
+      - POSTGRES_DB=megaline
+    volumes:
+      - "./warehouse_data:/var/lib/postgressql/data:rw"
+    ports:
+      - "5432:5432"
+  source_db_ui:
+    image: dpage/pgadmin4
+    environment:
+      - PGADMIN_DEFAULT_EMAIL=admin@admin.com
+      - PGADMIN_DEFAULT_PASSWORD=root
+    volumes:
+      - "./warehouse_ui_data:/var/lib/pgadmin"
+    ports:
+      - "8080:80"
+  orchestration:
+    image: mageai/mageai:latest
+    volumes:
+      - "./orchestration-volume:/home/src"
+    ports:
+      - "6789:6789"
+    command: /app/run_app.sh mage start scheduler

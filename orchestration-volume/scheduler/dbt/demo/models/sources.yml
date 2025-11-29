@@ -1,0 +1,7 @@
+
+sources:
+  - name: megaline
+    database: personal-sanbox  
+    schema: raw  
+    tables:
+      - name: calls

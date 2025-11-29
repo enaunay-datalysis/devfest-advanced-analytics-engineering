@@ -1,0 +1,1 @@
+{"user_id": "int64", "month": "date", "calls_count": "int64", "total_minutes": "Decimal"}

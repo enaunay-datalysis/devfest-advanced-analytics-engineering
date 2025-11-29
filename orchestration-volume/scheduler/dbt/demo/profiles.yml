@@ -1,0 +1,16 @@
+# https://docs.getdbt.com/docs/core/connect-data-platform/profiles.yml
+
+demo:
+  target: analytics
+  outputs:
+    analytics:
+      type: bigquery
+      method: service-account
+      keyfile: /home/personal-sanbox-ecbe319e534c.json  # local path to keyfile
+      project: personal-sanbox
+      dataset: clean
+      location: US
+      threads: 4
+      priority: interactive
+      timeout_seconds: 300
+      maximum_bytes_billed: 100000000000

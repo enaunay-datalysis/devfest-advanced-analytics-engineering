@@ -1,0 +1,3 @@
+{"operation": "create", "resource": {"type": "pipeline", "uuid": "source_data_ingest"}, "timestamp": 1764426325, "user": 1}
+{"operation": "create", "resource": {"type": "pipeline", "uuid": "raw_data"}, "timestamp": 1764428171, "user": 1}
+{"operation": "create", "resource": {"type": "pipeline", "uuid": "megaline_transform"}, "timestamp": 1764430741, "user": 1}
