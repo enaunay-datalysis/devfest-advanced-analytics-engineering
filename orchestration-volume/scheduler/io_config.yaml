@@ -42,9 +42,9 @@ default:
   GOOGLE_SERVICE_ACC_KEY:
     type: service_account
     project_id: personal-sanbox
-    private_key_id: ecbe319e534c9cd3f442f9ef5519904375665a22
-    private_key: "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDQj8A0neCQRPnl\nMS2DutEjPgdpCWf27JZbOg1nS9EM9H41Ev0j/uuc0JdCD1bi7prSDAfHD6/sXKzc\nzPu9oliAQ8DTckoIPLvcq2UEhKOvry8ch48fqnKV4nhGi9vjh+5H39THUF7xejIR\nMur6okYgNn/Ptlbk4tJOoybrd3TKPhEf18tr+dw6ZwA4tsAVCaVnkhSzsJbjq03Y\nX6LxlzlViqqFScwjjrLnYPlnjDv2Z39+E2TsXf2HZjx1SenSFT0tMweD8CUCp3OB\najuJs6ni7r10qDyGUHY4J1Kb/E8jmeZ+jnpDrq53M7vnhsXqKV2BSZs3o+RDyhbo\nwaIu0Y0bAgMBAAECggEAJeOXpXdxDoSZaXvPqvjLeb2RFxHwYzmD7zrSqItrhRD9\nxKKYfmuXXju+3u9ud3elhLdOymkdKrGDbfGHYmIV9edZJpDCxlBSSLqSdYmrOwV2\nZ5Zw9+29N2GXPCm4XtOZBFGzlCoTtYbfhaRcb///AWclPRUBID/cuRCGx4xCGWNt\nFZGSCczw8yEr8XvMCNFsKexZpyM55s3EOdJxjpRG6CCS6TvX6QR2l+aNM2mzFkec\nNkA4MP4zGI8HevBlNsbAG9BWSiXv2ADopwbAmP43bUaHKZvuL5310DrOuy385Jb8\nKU+lUB3oXqJeVHK+fefcTDr7p1D/aSqvoCkQtt78AQKBgQD2FZBbsiBidZgRgTLN\ntZSpDy3NyOFKTPF2sMedKifmVpVl3sgV1FGDW6UEQM2k8vftMKooPCcfLdcOq8O+\nfzyV8aNHxECySF6h0IX2zzO9ix/M/+NOln/msXa6Vu0Ketj2b4UCEIfwUpqXsBe+\nGd55itPVAuWNs3kr68Sq0xd7AQKBgQDY9yDe51OA5+WHfoqUZZ4/fOQBsUuOmTov\nEA53t2Xq4C3AojuthK8ySk0dJThSd1u8fejnr/KpvX8uQsv17lkK8hoW0gsAugKf\njN4VhCAwNqdS2GKKscHooBdwRtmvKqB/NgubNbSO09JbwnDnB+54tcFVfMKqdcfk\nQvCl/zuUGwKBgQDKk4nY0lPyeZeLoW3vBbGxUjuEkf9UKO8FpBVO/esGpPQrfi/8\nOGI53nGDhM1FInaSHWOV557U/elxvFhRM3DuhpLBe38+xHCSiJQfTwbq2+J74ZJ/\nmUkE4cY5M2HDJMoCZF98CZu+bGGyyVViOu135J7pVY8fDUWMsHOfpFJKAQKBgC/O\n3L5hSMQp1SjzGEQ01Bb3RSKeV6DXYLvIFPgKQHnt5gcBeJb2mshBGRboAa4iQOOa\n9vw+iAEhEWo3K8xINfS0fk0zAVuqoTNZDgK9t34IPPyDU8tt+eVxiVijNApmITGG\nzi3oOp4STNMNWGWAGOseWbiloht/kolYusBJKm6rAoGBALctYTXA6/lHYbCY3Utv\nAXa9tdNMWOpIQJ75ZksEZhI4jZ4j24JJ9+hbT9UQlAKrEZG7ksfrMgeGU3mGdQE5\nthp6SJhH6Tc892FyBVYGFz9aJj8+IcP8Erqr9Ci0M3OSq5dKnPpdDZKcA+55WLfn\nvCMzjD6gFw2rqOeJHZjHKu1V\n-----END PRIVATE KEY-----"
-    client_email: pipelines@personal-sanbox.iam.gserviceaccount.com
+    private_key_id: 
+    private_key: null
+    client_email:
     auth_uri: "https://accounts.google.com/o/oauth2/auth"
     token_uri: "https://accounts.google.com/o/oauth2/token"
     auth_provider_x509_cert_url: "https://www.googleapis.com/oauth2/v1/certs"
